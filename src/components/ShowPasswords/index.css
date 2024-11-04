@@ -1,0 +1,47 @@
+.li {
+  list-style-type: none;
+  border: 1px solid #94a3b8;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 300px;
+  margin: 20px;
+  border-radius: 5px;
+}
+
+.user-details-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.initial {
+  background-color: #10b981;
+  font-size: 35px;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 50%;
+  margin: 20px;
+}
+
+.name {
+  color: #f8fafc;
+  margin: 3px;
+}
+
+.delete-button {
+  background-color: transparent;
+  border: none;
+  padding-right: 30px;
+  cursor: pointer;
+  outline: none;
+}
+
+.delete-icon {
+  height: 20px;
+}
+
+.stars {
+  height: 10px;
+}
